@@ -1,0 +1,595 @@
+{
+  "kpis": {
+    "total_transactions": 100000,
+    "total_flagged": 10077,
+    "fraud_rate_pct": 10.08,
+    "total_revenue": 25038490.38,
+    "fraud_exposed_amount": 6810330.81,
+    "avg_risk_score_fraud": 75.18,
+    "avg_risk_score_normal": 15.0,
+    "critical_count": 5146,
+    "high_count": 4911
+  },
+  "fraud_by_type": {
+    "High-Risk Segment": 3000,
+    "Velocity Fraud": 2500,
+    "Off-Hours Transaction": 2431,
+    "Large Amount Anomaly": 2000,
+    "Structuring Pattern": 94,
+    "Suspicious Channel-Category": 52
+  },
+  "fraud_by_category": [
+    {
+      "category": "Clothing",
+      "total": 12972,
+      "fraud": 1285,
+      "fraud_rate": 9.91,
+      "avg_amount": 124.98462303422757
+    },
+    {
+      "category": "Electronics",
+      "total": 11980,
+      "fraud": 1244,
+      "fraud_rate": 10.38,
+      "avg_amount": 694.4649632721201
+    },
+    {
+      "category": "Entertainment",
+      "total": 8000,
+      "fraud": 844,
+      "fraud_rate": 10.55,
+      "avg_amount": 87.95463375
+    },
+    {
+      "category": "Fuel",
+      "total": 9972,
+      "fraud": 1007,
+      "fraud_rate": 10.1,
+      "avg_amount": 74.53242378660248
+    },
+    {
+      "category": "Groceries",
+      "total": 18081,
+      "fraud": 1728,
+      "fraud_rate": 9.56,
+      "avg_amount": 88.74897793263646
+    },
+    {
+      "category": "Healthcare",
+      "total": 6943,
+      "fraud": 726,
+      "fraud_rate": 10.46,
+      "avg_amount": 178.0517024341063
+    },
+    {
+      "category": "Jewellery",
+      "total": 2973,
+      "fraud": 304,
+      "fraud_rate": 10.23,
+      "avg_amount": 1351.79749411369
+    },
+    {
+      "category": "Online Retail",
+      "total": 9054,
+      "fraud": 892,
+      "fraud_rate": 9.85,
+      "avg_amount": 138.78814998895515
+    },
+    {
+      "category": "Restaurants",
+      "total": 12036,
+      "fraud": 1185,
+      "fraud_rate": 9.85,
+      "avg_amount": 54.84868062479229
+    },
+    {
+      "category": "Travel",
+      "total": 7989,
+      "fraud": 862,
+      "fraud_rate": 10.79,
+      "avg_amount": 610.1015608962323
+    }
+  ],
+  "fraud_by_hour": [
+    {
+      "hour": 0,
+      "total": 1023,
+      "fraud": 1023,
+      "fraud_rate": 100.0
+    },
+    {
+      "hour": 1,
+      "total": 506,
+      "fraud": 506,
+      "fraud_rate": 100.0
+    },
+    {
+      "hour": 2,
+      "total": 293,
+      "fraud": 293,
+      "fraud_rate": 100.0
+    },
+    {
+      "hour": 3,
+      "total": 274,
+      "fraud": 274,
+      "fraud_rate": 100.0
+    },
+    {
+      "hour": 4,
+      "total": 379,
+      "fraud": 379,
+      "fraud_rate": 100.0
+    },
+    {
+      "hour": 5,
+      "total": 1195,
+      "fraud": 91,
+      "fraud_rate": 7.62
+    },
+    {
+      "hour": 6,
+      "total": 3217,
+      "fraud": 228,
+      "fraud_rate": 7.09
+    },
+    {
+      "hour": 7,
+      "total": 5228,
+      "fraud": 403,
+      "fraud_rate": 7.71
+    },
+    {
+      "hour": 8,
+      "total": 7056,
+      "fraud": 564,
+      "fraud_rate": 7.99
+    },
+    {
+      "hour": 9,
+      "total": 8190,
+      "fraud": 614,
+      "fraud_rate": 7.5
+    },
+    {
+      "hour": 10,
+      "total": 7160,
+      "fraud": 537,
+      "fraud_rate": 7.5
+    },
+    {
+      "hour": 11,
+      "total": 6261,
+      "fraud": 515,
+      "fraud_rate": 8.23
+    },
+    {
+      "hour": 12,
+      "total": 7124,
+      "fraud": 585,
+      "fraud_rate": 8.21
+    },
+    {
+      "hour": 13,
+      "total": 7112,
+      "fraud": 529,
+      "fraud_rate": 7.44
+    },
+    {
+      "hour": 14,
+      "total": 6221,
+      "fraud": 490,
+      "fraud_rate": 7.88
+    },
+    {
+      "hour": 15,
+      "total": 6266,
+      "fraud": 485,
+      "fraud_rate": 7.74
+    },
+    {
+      "hour": 16,
+      "total": 6172,
+      "fraud": 541,
+      "fraud_rate": 8.77
+    },
+    {
+      "hour": 17,
+      "total": 5627,
+      "fraud": 404,
+      "fraud_rate": 7.18
+    },
+    {
+      "hour": 18,
+      "total": 5111,
+      "fraud": 388,
+      "fraud_rate": 7.59
+    },
+    {
+      "hour": 19,
+      "total": 4671,
+      "fraud": 354,
+      "fraud_rate": 7.58
+    },
+    {
+      "hour": 20,
+      "total": 4207,
+      "fraud": 323,
+      "fraud_rate": 7.68
+    },
+    {
+      "hour": 21,
+      "total": 3188,
+      "fraud": 227,
+      "fraud_rate": 7.12
+    },
+    {
+      "hour": 22,
+      "total": 2277,
+      "fraud": 180,
+      "fraud_rate": 7.91
+    },
+    {
+      "hour": 23,
+      "total": 1242,
+      "fraud": 144,
+      "fraud_rate": 11.59
+    }
+  ],
+  "fraud_by_channel": [
+    {
+      "channel": "ATM",
+      "total": 9982,
+      "fraud": 1016,
+      "fraud_rate": 10.18
+    },
+    {
+      "channel": "In-Store",
+      "total": 34897,
+      "fraud": 3520,
+      "fraud_rate": 10.09
+    },
+    {
+      "channel": "Mobile App",
+      "total": 19908,
+      "fraud": 1953,
+      "fraud_rate": 9.81
+    },
+    {
+      "channel": "Online",
+      "total": 30249,
+      "fraud": 3049,
+      "fraud_rate": 10.08
+    },
+    {
+      "channel": "Phone",
+      "total": 4964,
+      "fraud": 539,
+      "fraud_rate": 10.86
+    }
+  ],
+  "fraud_by_city": [
+    {
+      "location": "London",
+      "total": 27857,
+      "fraud": 2872,
+      "total_amount": 7017010.11,
+      "fraud_rate": 10.31
+    },
+    {
+      "location": "Manchester",
+      "total": 12082,
+      "fraud": 1119,
+      "total_amount": 3051874.84,
+      "fraud_rate": 9.26
+    },
+    {
+      "location": "Birmingham",
+      "total": 9998,
+      "fraud": 997,
+      "total_amount": 2517116.2,
+      "fraud_rate": 9.97
+    },
+    {
+      "location": "Leeds",
+      "total": 8082,
+      "fraud": 809,
+      "total_amount": 1952504.32,
+      "fraud_rate": 10.01
+    },
+    {
+      "location": "Edinburgh",
+      "total": 7972,
+      "fraud": 782,
+      "total_amount": 1994990.36,
+      "fraud_rate": 9.81
+    },
+    {
+      "location": "Liverpool",
+      "total": 7021,
+      "fraud": 739,
+      "total_amount": 1709147.36,
+      "fraud_rate": 10.53
+    },
+    {
+      "location": "Glasgow",
+      "total": 7031,
+      "fraud": 732,
+      "total_amount": 1838206.55,
+      "fraud_rate": 10.41
+    },
+    {
+      "location": "Sheffield",
+      "total": 7101,
+      "fraud": 729,
+      "total_amount": 1888551.32,
+      "fraud_rate": 10.27
+    },
+    {
+      "location": "Bristol",
+      "total": 6871,
+      "fraud": 695,
+      "total_amount": 1624554.38,
+      "fraud_rate": 10.11
+    },
+    {
+      "location": "Newcastle",
+      "total": 5985,
+      "fraud": 603,
+      "total_amount": 1444534.94,
+      "fraud_rate": 10.08
+    }
+  ],
+  "fraud_monthly": [
+    {
+      "month": "January",
+      "total": 8577,
+      "fraud": 896,
+      "fraud_rate": 10.45,
+      "revenue": 2168658.92
+    },
+    {
+      "month": "February",
+      "total": 7729,
+      "fraud": 789,
+      "fraud_rate": 10.21,
+      "revenue": 1968397.04
+    },
+    {
+      "month": "March",
+      "total": 8448,
+      "fraud": 840,
+      "fraud_rate": 9.94,
+      "revenue": 2218726.94
+    },
+    {
+      "month": "April",
+      "total": 8188,
+      "fraud": 824,
+      "fraud_rate": 10.06,
+      "revenue": 1987290.2
+    },
+    {
+      "month": "May",
+      "total": 8412,
+      "fraud": 817,
+      "fraud_rate": 9.71,
+      "revenue": 2127636.38
+    },
+    {
+      "month": "June",
+      "total": 8187,
+      "fraud": 793,
+      "fraud_rate": 9.69,
+      "revenue": 2021584.15
+    },
+    {
+      "month": "July",
+      "total": 8391,
+      "fraud": 842,
+      "fraud_rate": 10.03,
+      "revenue": 2073410.54
+    },
+    {
+      "month": "August",
+      "total": 8578,
+      "fraud": 880,
+      "fraud_rate": 10.26,
+      "revenue": 2200564.1
+    },
+    {
+      "month": "September",
+      "total": 8274,
+      "fraud": 839,
+      "fraud_rate": 10.14,
+      "revenue": 2023953.22
+    },
+    {
+      "month": "October",
+      "total": 8573,
+      "fraud": 927,
+      "fraud_rate": 10.81,
+      "revenue": 2205999.58
+    },
+    {
+      "month": "November",
+      "total": 8301,
+      "fraud": 797,
+      "fraud_rate": 9.6,
+      "revenue": 2087812.46
+    },
+    {
+      "month": "December",
+      "total": 8342,
+      "fraud": 833,
+      "fraud_rate": 9.99,
+      "revenue": 1954456.85
+    }
+  ],
+  "fraud_by_segment": [
+    {
+      "customer_segment": "High-Risk",
+      "total": 9846,
+      "fraud": 3680,
+      "avg_amount": 258.98819012797077,
+      "fraud_rate": 37.38
+    },
+    {
+      "customer_segment": "New",
+      "total": 15291,
+      "fraud": 1073,
+      "avg_amount": 241.8862304623635,
+      "fraud_rate": 7.02
+    },
+    {
+      "customer_segment": "Premium",
+      "total": 19995,
+      "fraud": 1438,
+      "avg_amount": 243.75995098774692,
+      "fraud_rate": 7.19
+    },
+    {
+      "customer_segment": "Regular",
+      "total": 54868,
+      "fraud": 3886,
+      "avg_amount": 253.62378964059195,
+      "fraud_rate": 7.08
+    }
+  ],
+  "risk_distribution": {
+    "Low": 89923,
+    "Critical": 5146,
+    "High": 4911,
+    "Medium": 20
+  },
+  "top_merchants": [
+    {
+      "merchant_id": "MERCH0368",
+      "fraud_count": 18
+    },
+    {
+      "merchant_id": "MERCH0803",
+      "fraud_count": 14
+    },
+    {
+      "merchant_id": "MERCH0391",
+      "fraud_count": 14
+    },
+    {
+      "merchant_id": "MERCH0658",
+      "fraud_count": 13
+    },
+    {
+      "merchant_id": "MERCH0655",
+      "fraud_count": 13
+    },
+    {
+      "merchant_id": "MERCH1093",
+      "fraud_count": 13
+    },
+    {
+      "merchant_id": "MERCH1316",
+      "fraud_count": 13
+    },
+    {
+      "merchant_id": "MERCH1840",
+      "fraud_count": 13
+    },
+    {
+      "merchant_id": "MERCH0502",
+      "fraud_count": 13
+    },
+    {
+      "merchant_id": "MERCH1020",
+      "fraud_count": 12
+    }
+  ],
+  "fraud_by_dow": [
+    {
+      "day_of_week": "Monday",
+      "total": 14364,
+      "fraud": 1536,
+      "fraud_rate": 10.69
+    },
+    {
+      "day_of_week": "Tuesday",
+      "total": 14138,
+      "fraud": 1438,
+      "fraud_rate": 10.17
+    },
+    {
+      "day_of_week": "Wednesday",
+      "total": 14349,
+      "fraud": 1425,
+      "fraud_rate": 9.93
+    },
+    {
+      "day_of_week": "Thursday",
+      "total": 14444,
+      "fraud": 1436,
+      "fraud_rate": 9.94
+    },
+    {
+      "day_of_week": "Friday",
+      "total": 14184,
+      "fraud": 1409,
+      "fraud_rate": 9.93
+    },
+    {
+      "day_of_week": "Saturday",
+      "total": 14136,
+      "fraud": 1419,
+      "fraud_rate": 10.04
+    },
+    {
+      "day_of_week": "Sunday",
+      "total": 14385,
+      "fraud": 1414,
+      "fraud_rate": 9.83
+    }
+  ],
+  "amount_buckets": [
+    {
+      "bucket": "<\u00a350",
+      "total": 24480,
+      "fraud": 1960,
+      "fraud_rate": 8.01
+    },
+    {
+      "bucket": "\u00a350-100",
+      "total": 32582,
+      "fraud": 2676,
+      "fraud_rate": 8.21
+    },
+    {
+      "bucket": "\u00a3100-250",
+      "total": 21547,
+      "fraud": 1818,
+      "fraud_rate": 8.44
+    },
+    {
+      "bucket": "\u00a3250-500",
+      "total": 9752,
+      "fraud": 1151,
+      "fraud_rate": 11.8
+    },
+    {
+      "bucket": "\u00a3500-1K",
+      "total": 7382,
+      "fraud": 1169,
+      "fraud_rate": 15.84
+    },
+    {
+      "bucket": "\u00a31K-5K",
+      "total": 3978,
+      "fraud": 1053,
+      "fraud_rate": 26.47
+    },
+    {
+      "bucket": ">\u00a35K",
+      "total": 279,
+      "fraud": 250,
+      "fraud_rate": 89.61
+    }
+  ]
+}
