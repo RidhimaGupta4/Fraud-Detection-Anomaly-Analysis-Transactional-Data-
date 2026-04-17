@@ -6,7 +6,7 @@
 
 This project simulates a real-world retail fraud detection pipeline. It generates a realistic transactional dataset, applies rule-based and statistical anomaly detection techniques, segments customers by risk profile, and visualises findings through an interactive dashboard.
 
-**Live dashboard →** https://YOUR_USERNAME.github.io/fraud-detection-analysis/
+**Live dashboard →** https://RidhimaGupta4.github.io/Fraud-Detection-Anomaly-Analysis-Transactional-Data-/
 
 ---
 
