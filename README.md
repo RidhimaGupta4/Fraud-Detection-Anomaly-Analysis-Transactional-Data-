@@ -47,7 +47,6 @@ This project simulates a real-world retail fraud detection pipeline. It generate
 ---
 
 ## Project structure
-````markdown
 ```text
 fraud-detection-analysis/
 ├── data/
@@ -61,7 +60,6 @@ fraud-detection-analysis/
 │   └── fraud_analysis.json          # Pre-computed summary statistics
 └── requirements.txt
 ```
-````
 
 ## How to run
 
