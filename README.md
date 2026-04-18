@@ -47,17 +47,21 @@ This project simulates a real-world retail fraud detection pipeline. It generate
 ---
 
 ## Project structure
+````markdown
+```text
 fraud-detection-analysis/
 ├── data/
-│   └── fraud_transactions.csv     # 100,000-row dataset (17 columns)
+│   └── fraud_transactions.csv       # 100,000-row dataset (17 columns)
 ├── src/
-│   ├── generate_fraud_data.py     # Dataset generator
-│   └── fraud_analysis.py          # Full analysis pipeline
+│   ├── generate_fraud_data.py       # Dataset generator
+│   └── fraud_analysis.py            # Full analysis pipeline
 ├── dashboard/
-│   └── index.html                 # Self-contained interactive dashboard
+│   └── index.html                   # Self-contained interactive dashboard
 ├── outputs/
-│   └── fraud_analysis.json        # Pre-computed summary statistics
+│   └── fraud_analysis.json          # Pre-computed summary statistics
 └── requirements.txt
+```
+````
 
 ## How to run
 
